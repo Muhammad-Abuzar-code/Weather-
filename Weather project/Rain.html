@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="rain.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+    <h1 class="heading">🌤️ Check Your City’s Weather</h1>
+    <div class="card">
+        <div class="search">
+            <input type="search" placeholder="Enter City Name" spellcheck="false">
+            <button><i class="material-icons">search</i></button>
+        </div>
+        <div class="error">
+            Invalid City Name
+        </div>
+        <div class="weather-details">
+        <div class="weather">
+            <img class="weather-icon" src="Rain.png">
+            <h1 class="temp" style="font-size:50px">22°C</h1>
+            <h2 class ="city" style="font-size:30px">Gujranwala</h2>            
+        </div>
+        <div class="details">
+            <div class="col" style="margin-top:50px; margin-left:-50px;">
+               <i class="fa-solid fa-water" style="font-size:70px; color:rgb(236, 235, 235)"></i>
+            <div class="humidity">
+                <p class="humid" style="font-size:20px; color:white; margin-left:10px;">50%</p>
+                <p style="font-size:15px; color:white; margin-left:10px;">Humidity</p>
+            </div>
+            </div>
+            <div class="col" style="margin-top:50px; margin-left:150px;" >
+                <i class="fa-solid fa-wind" style="font-size:70px; color:rgb(236, 235, 235); margin-left:-50px"></i>
+            <div class="wind">
+                <p class="windy" style="font-size:20px; color:white; margin-left:10px;">15 Km/h</p>
+                <p style="font-size:15px; color:white; margin-left:10px;">Wind Speed</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="rain.js"></script>
+</body>    
+</html>
